@@ -1,0 +1,7 @@
+name: "My CodeQL config"
+
+disable-default-queries: true
+
+queries:
+  - name: Use an extended Java QL pack (lgtm)
+    uses: ./java-lgtm-full.qls
